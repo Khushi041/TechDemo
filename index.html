@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechDemo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+    </style>
+  <style>
+    .hero-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5rem 0;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-image {
+      max-width: 40%;
+      height: auto;
+    }
+
+    .about-section {
+      background-color: #f8f9fa;
+      padding: 3rem 0;
+    }
+
+    .about-content {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 768px) {
+      .hero-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text {
+        max-width: 100%;
+      }
+
+      .hero-image {
+        max-width: 80%;
+        margin-top: 2rem;
+      }
+
+      .about-content {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" alt="Logo" class="logo">
+        </a>
+        
+      <span class="lacquer-regular">TechDemo</span>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/team.html">Our Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/reviewt.html">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+
+ 
+
+  <header class="hero-section text-center py-5">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="hero-text">
+        <h1>Welcome to TechDemo</h1>
+        <p class="bold-text">"From Concept to Creation – IT Solutions Designed for Growth."</p>
+        <p class="formatted-text">"At TechDemo, we specialize in creating customized IT solutions that drive success. With expertise in web development, software engineering, and digital transformation, we empower businesses to achieve more. Our innovative approach and dedicated team ensure that we provide solutions tailored to your needs."</p>
+        <a href="pages/services.html" class="btn explore-btn mt-3">Explore Services</a>
+    </div>
+    <div class="hero-image">
+        <img src="assets/images/hero-image.jpg" alt="Large Image" class="img-fluid styled-image">
+    </div>
+    
+</header>
+
+
+  <section class="stats-section py-5" style="background-color: #f0f0f0;">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="stat-circle">
+            <h3>1,000,000+</h3>
+            <p>Lines of Code</p>
+          </div>
+        </div>
+        <!-- Happy Clients -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="stat-circle">
+            <h3>1,000+</h3>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+        <!-- Years -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="stat-circle">
+            <h3>10+</h3>
+            <p>Years of Innovation IT solutions</p>
+          </div>
+        </div>
+        <!-- Projects -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="stat-circle">
+            <h3>100+</h3>
+            <p>Projects Delivered</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- About Us Section -->
+  <section class="about-us-section py-5 ">
+    <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="mb-4 text">About Us</h2>
+            <p class="about-text">
+              At <strong>TechDemo</strong>, we are passionate about driving digital transformation and creating innovative IT solutions tailored to meet your business needs. With years of expertise in web development, software engineering, and cloud solutions, we are your trusted partner in achieving technological excellence.
+            </p>
+            <p class="about-text">
+              Our mission is to empower businesses to thrive in a digital-first world by delivering scalable, reliable, and secure solutions. We believe in combining cutting-edge technology with a client-focused approach to ensure success in every project.
+            </p>
+            <p class="about-text">
+              Join us in shaping the future of technology and achieving your goals with confidence!
+            </p>
+            <a href="about.html" class="btn btn-primary mt-3 about-btn">Learn More</a>
+          </div>
+  
+        <div class="col-md-6 text-center">
+            <img src="assets/images/about.jpg" alt="About Us" class="img-fluid custom-shape shadow">
+          </div>
+          
+        </div>
+      </div>
+  </section>
+
+  <section class="services-section py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="services-heading">Our Services</h2>
+        <p class="services-subheading">
+          Empowering businesses with cutting-edge technology solutions tailored for success.
+        </p>
+      </div>
+      <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card custom-card">
+                  <img src="assets/images/web.png" class="card-img-top" alt="Web Development">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-text">We craft responsive, high-performing websites that engage users and drive business growth.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card custom-card">
+                  <img src="assets/images/software.png" class="card-img-top" alt="Software Development">
+                  <div class="card-body">
+                    <h5 class="card-title">Software Development</h5>
+                    <p class="card-text">Custom software solutions tailored to optimize operations and improve efficiency.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card custom-card">
+                  <img src="assets/images/cloud.png" class="card-img-top" alt="Cloud Solutions">
+                  <div class="card-body">
+                    <h5 class="card-title">Cloud Solutions</h5>
+                    <p class="card-text">Scalable and secure cloud migration and management services for streamlined processes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card custom-card">
+                  <img src="assets/images/digital.png" class="card-img-top" alt="Digital Marketing">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Marketing</h5>
+                    <p class="card-text">Comprehensive strategies to expand your online presence and effectively reach your audience.</p>
+                  </div>
+                </div>
+              </div>
+\              <div class="col-md-4">
+                <div class="card custom-card">
+                  <img src="assets/images/ui.png" class="card-img-top" alt="UI/UX Design">
+                  <div class="card-body">
+                    <h5 class="card-title">UI/UX Design</h5>
+                    <p class="card-text">Create intuitive and engaging interfaces that enhance user experience and satisfaction.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card custom-card">
+                  <img src="assets/images/data.png" class="card-img-top" alt="Data Analytics">
+                  <div class="card-body">
+                    <h5 class="card-title">Data Analytics</h5>
+                    <p class="card-text">Transform data into actionable insights with advanced analytics solutions.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+<!--team member-->
+
+  <section class="team-section py-5" style="background-color: #f0f0f0;">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="team-heading">Meet Our Team</h2>
+        <p class="team-description">
+          Our dedicated professionals are the driving force behind your success, delivering innovative IT solutions with passion and expertise.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card team-card">
+            <img src="assets/images/team1.jpg" alt="John Doe" class="card-img-top team-image">
+            <div class="card-body">
+              <h5 class="team-name">John Doe</h5>
+              <p class="team-role">CEO & Founder</p>
+              <p class="team-bio">
+                Visionary leader with over 15 years of experience in IT solutions and business transformation.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card team-card">
+            <img src="assets/images/team2.jpg" alt="Jane Smith" class="card-img-top team-image">
+            <div class="card-body">
+              <h5 class="team-name">Jane Smith</h5>
+              <p class="team-role">CTO</p>
+              <p class="team-bio">
+                Technology enthusiast with expertise in software development and cloud architecture.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card team-card">
+            <img src="assets/images/team3.jpg" alt="Billey Johnson" class="card-img-top team-image">
+            <div class="card-body">
+              <h5 class="team-name">Billey Johnson</h5>
+              <p class="team-role">Project Manager</p>
+              <p class="team-bio">
+                Specialist in agile project management, ensuring timely and efficient delivery of projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!--review-->
+  <section class="client-reviews-section py-5" style="background-color: #f0f0f0;">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="client-heading">What Our Clients Say</h2>
+        <p class="client-description">
+          Hear from our satisfied clients about their experience with our services.
+        </p>
+      </div>
+      <div id="clientReviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="card client-card shadow-lg">
+                  <div class="card-body text-center">
+                    <p class="client-quote">
+                      "TechDemo transformed our business operations with their cutting-edge solutions. Their team’s dedication and expertise are unmatched!"
+                    </p>
+                    <h5 class="client-name">- Sarah Johnson</h5>
+                    <p class="client-role">CEO, BrightTech</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="card client-card shadow-lg">
+                  <div class="card-body text-center">
+                    <p class="client-quote">
+                      "We were amazed by the seamless execution of our project. The team's professionalism and timely delivery exceeded our expectations."
+                    </p>
+                    <h5 class="client-name">- Michael Brown</h5>
+                    <p class="client-role">Director, InnovateCo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="card client-card shadow-lg">
+                  <div class="card-body text-center">
+                    <p class="client-quote">
+                      "Their cloud solutions helped us scale our business effortlessly. Highly recommend TechDemo for any IT needs!"
+                    </p>
+                    <h5 class="client-name">- Lisa Carter</h5>
+                    <p class="client-role">CTO, SkyNet Solutions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#clientReviewsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#clientReviewsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#clientReviewsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#clientReviewsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#clientReviewsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+          <!-- Contact Form -->
+
+<section class="contact-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+        <h2 class="contact-heading">Contact Us</h2>
+        <p class="contact-subtext">We’d love to hear from you! Reach out to us for inquiries or project consultation.</p>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <form action="submit_form.php" method="POST" class="custom-form p-4 rounded">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Type your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success w-100 custom-button">Send Message</button>
+          </form>
+          
+      </div>
+      <div class="col-md-6">
+        <!-- Company Info & Google Map -->
+        <div class="office-info shadow p-4 rounded">
+            <h4 class="office-heading">Our Office</h4>
+            <p class="office-details"><strong>TechDemo Solutions</strong></p>
+            <p class="office-details">123 Business Street, Tech City</p>
+            <p class="office-details">Phone: +1 234 567 890</p>
+            <p class="office-details">Email: contact@techdemo.com</p>
+            <div class="map-responsive mt-3">
+              <iframe src="https://maps.google.com/maps?q=TechDemo%20Solutions&output=embed" 
+                      width="100%" 
+                      height="300" 
+                      style="border:0;" 
+                      allowfullscreen="" 
+                      loading="lazy">
+              </iframe>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+  <!-- Footer  -->
+  <footer class="footer bg-dark-green text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2023 <span class="text-green">TechDemo Solutions</span>. All Rights Reserved.</p>
+      <p>Follow Us:</p>
+      <ul class="list-inline social-links">
+        <li class="list-inline-item">
+          <a href="https://www.facebook.com/TechDemo" class="text-green" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.twitter.com/TechDemo" class="text-green" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/company/TechDemo" class="text-green" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://www.instagram.com/TechDemo" class="text-green" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
